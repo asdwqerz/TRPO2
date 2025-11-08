@@ -10,10 +10,10 @@ int main() {
 
     int a = 10, b = 20;
 
-    cout << "Сумма: " << plus(a, b) << endl;
-    cout << "Разность: = " << minus(a, b) << endl;
-    cout << "Умножение: = " << mult(a, b) << endl;
-    cout << "Деление: " << div(a, b) << endl;
+    cout << "Сумма: " << Plus(a, b) << endl;
+    cout << "Разность: = " << Minus(a, b) << endl;
+    cout << "Умножение: = " << Mult(a, b) << endl;
+    cout << "Деление: " << Div(a, b) << endl;
 
     return 0;
 }

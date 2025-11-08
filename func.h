@@ -1,7 +1,7 @@
-int plus(int a, int b);
+int Plus(int a, int b);
 
-int minus(int a, int b);
+int Minus(int a, int b);
 
-int mult(int a, int b);
+int Mult(int a, int b);
 
-int div(int a, int b);
+double Div(int a, int b);
