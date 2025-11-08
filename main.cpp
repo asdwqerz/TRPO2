@@ -1,6 +1,6 @@
 #include <iostream>
 #include <locale.h>
-#include "functions.h"
+#include "func.h"
 
 using namespace std;
 
