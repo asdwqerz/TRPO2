@@ -3,6 +3,9 @@ name: CI/CD
 on:
   workflow_dispatch:  # Запуск кнопкой "Run workflow"
   push:               # Запуск при коммите
+  pull_request:       # Запуск при PR
+    branches:
+      - main
 
 
 jobs:
