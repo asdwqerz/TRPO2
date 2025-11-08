@@ -9,7 +9,7 @@
   @brief ИЗМЕНЕНИЕ
   @param[in] a ИЗМЕНЕНИЕ
   @param[in] b ИЗМЕНЕНИЕ
-  @return Результат сложения a + b
+  @return ИЗМЕНЕНИЕ
 */
 int Plus(int a, int b);
 
