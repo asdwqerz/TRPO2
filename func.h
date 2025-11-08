@@ -1,20 +1,20 @@
 /**
-  @file func.h
-  @brief Заголовочный файл с объявлением функций
+  @file ИЗМЕНЕНИЕ
+  @brief ИЗМЕНЕНИЕ
 
   Содержит математические функции Add, Minus, Mult, Div, Pow, Mod.
 */
 
 /**
-  @brief Складывает два числа
-  @param[in] a Первое слагаемое
-  @param[in] b Второе слагаемое
+  @brief ИЗМЕНЕНИЕ
+  @param[in] a ИЗМЕНЕНИЕ
+  @param[in] b ИЗМЕНЕНИЕ
   @return Результат сложения a + b
 */
 int Plus(int a, int b);
 
 /**
-  @brief Вычитает из одного числа второе
+  @brief ИЗМЕНЕНИЕ
   @param[in] a Уменьшаемое
   @param[in] b Вычитаемое
   @return Результат вычитания a - b
