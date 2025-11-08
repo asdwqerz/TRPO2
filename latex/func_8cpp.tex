@@ -1,0 +1,159 @@
+\doxysection{Файл func.\+cpp}
+\hypertarget{func_8cpp}{}\label{func_8cpp}\index{func.cpp@{func.cpp}}
+
+
+Реализация математических функций  
+
+
+{\ttfamily \#include "{}func.\+h"{}}\newline
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{func_8cpp_a49dae001c538464eb4f716a5f486ba35}{Plus}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Складывает два числа \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{func_8cpp_a45048e9307cd62f7735ed668e76a787e}{Minus}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычитает из одного числа второе \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{func_8cpp_a1c52fb373fc399a7582877ff88801468}{Mult}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Перемножает два числа \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{func_8cpp_ab5c0a525964ac0ff6b52339a5e824ff3}{Div}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Делит одно число на второе \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{func_8cpp_acc4d866e4b7e539f1befc3cc69eae17b}{Pow}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Возводит число в степень \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{func_8cpp_a32154d1b92d7e28d67e9c4f8619bb6c2}{Mod}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Ищет остаток от деления первого числа на второе \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Реализация математических функций 
+
+
+
+\label{doc-func-members}
+\Hypertarget{func_8cpp_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{func_8cpp_ab5c0a525964ac0ff6b52339a5e824ff3}\index{func.cpp@{func.cpp}!Div@{Div}}
+\index{Div@{Div}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Div()}{Div()}}
+{\footnotesize\ttfamily \label{func_8cpp_ab5c0a525964ac0ff6b52339a5e824ff3} 
+double Div (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Делит одно число на второе 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Делимое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Делитель \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат деления a / b. 
+\end{DoxyReturn}
+\begin{DoxyNote}{Заметки}
+Если b = 0, функция возвращает 0. 
+\end{DoxyNote}
+\Hypertarget{func_8cpp_a45048e9307cd62f7735ed668e76a787e}\index{func.cpp@{func.cpp}!Minus@{Minus}}
+\index{Minus@{Minus}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Minus()}{Minus()}}
+{\footnotesize\ttfamily \label{func_8cpp_a45048e9307cd62f7735ed668e76a787e} 
+int Minus (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Вычитает из одного числа второе 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Уменьшаемое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Вычитаемое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат вычитания a -\/ b 
+\end{DoxyReturn}
+\Hypertarget{func_8cpp_a32154d1b92d7e28d67e9c4f8619bb6c2}\index{func.cpp@{func.cpp}!Mod@{Mod}}
+\index{Mod@{Mod}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Mod()}{Mod()}}
+{\footnotesize\ttfamily \label{func_8cpp_a32154d1b92d7e28d67e9c4f8619bb6c2} 
+int Mod (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Ищет остаток от деления первого числа на второе 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Первое число \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Второе число \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Значение a \% b 
+\end{DoxyReturn}
+\begin{DoxyNote}{Заметки}
+Если b = 0, функция возвращает 0 
+\end{DoxyNote}
+\Hypertarget{func_8cpp_a1c52fb373fc399a7582877ff88801468}\index{func.cpp@{func.cpp}!Mult@{Mult}}
+\index{Mult@{Mult}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Mult()}{Mult()}}
+{\footnotesize\ttfamily \label{func_8cpp_a1c52fb373fc399a7582877ff88801468} 
+int Mult (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Перемножает два числа 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Первое множимое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Второе множимое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Произведение чисел a \texorpdfstring{$\ast$}{*} b 
+\end{DoxyReturn}
+\Hypertarget{func_8cpp_a49dae001c538464eb4f716a5f486ba35}\index{func.cpp@{func.cpp}!Plus@{Plus}}
+\index{Plus@{Plus}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Plus()}{Plus()}}
+{\footnotesize\ttfamily \label{func_8cpp_a49dae001c538464eb4f716a5f486ba35} 
+int Plus (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Складывает два числа 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Первое слагаемое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Второе слагаемое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат сложения a + b 
+\end{DoxyReturn}
+\Hypertarget{func_8cpp_acc4d866e4b7e539f1befc3cc69eae17b}\index{func.cpp@{func.cpp}!Pow@{Pow}}
+\index{Pow@{Pow}!func.cpp@{func.cpp}}
+\doxysubsubsection{\texorpdfstring{Pow()}{Pow()}}
+{\footnotesize\ttfamily \label{func_8cpp_acc4d866e4b7e539f1befc3cc69eae17b} 
+double Pow (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Возводит число в степень 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Основание степени \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Показатель степени \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Значение a в степени b 
+\end{DoxyReturn}

@@ -1,5 +1,9 @@
 #include "func.h"
 
+/**
+  @file func.cpp
+  @brief Реализация математических функций
+*/
 int Plus(int a, int b) {
     return a + b;
 }

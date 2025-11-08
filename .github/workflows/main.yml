@@ -7,6 +7,8 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write     # Разрешение записи
 
 jobs:
   build:
@@ -27,3 +29,19 @@ jobs:
       
       - name: Запуск тестов
         run: ./tests
+
+      - name: Генерация документации
+        run: doxygen Doxyfile
+
+      - name: Индентиыикация
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.email "ishakinc@yandex.ru"
+          git config --global user.name "asdwqerz"
+          
+      - name: Коммит изменений документации
+        if: github.event_name == 'push'
+        run: |
+          git add docs/
+          git commit -m "Автоматичесткое обновление документации"
+          git push 
