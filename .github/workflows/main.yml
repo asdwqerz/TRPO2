@@ -21,3 +21,6 @@ jobs:
 
       - name: Сборка
         run: cmake --build .
+      
+      - name: Запуск тестов
+        run: ./tests
