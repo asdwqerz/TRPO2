@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "functions.h"
+#include "func.h"
 
 using namespace std;
 
