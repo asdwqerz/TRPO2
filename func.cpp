@@ -38,3 +38,9 @@ double Pow(int a, int b) {
 
     return result;
 }
+
+int Mod(int a, int b) {
+    if (b == 0)
+        return 0;
+    return a % b;
+}

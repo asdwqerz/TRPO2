@@ -23,6 +23,9 @@ int main() {
 	assert(Pow(2, 3) == 8);
     assert(Pow(5, -2) == 0.04);
 
+	assert(Mod(3, 2) == 1);
+    assert(Mod(5, 3) == 2);
+
     cout << "All tests completed successfully." << endl;
     return 0;
 }
